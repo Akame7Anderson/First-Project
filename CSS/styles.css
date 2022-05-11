@@ -100,5 +100,8 @@ a, a:hover {
 }
 
 
-    
+.dsmovie-formcontainer {
+    padding: 40px 0;
+    max-width: 480px;
+}   
 
