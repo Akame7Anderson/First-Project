@@ -36,11 +36,37 @@
                     
                     <div class="dsmovie-card">
                         <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg" alt="The Witcher">
-                        <div class="dsmoviecard-description">
+                        <div class="dsmoviecard-formdescription">
         
                             <h3>The Witcher</h3>
-                            <a class="dsmoviebtn" href="index.html">Cancelar</a>
-                            <!--<button>AVALIAR</button>-->
+                            <form class="dsmovie-form">
+
+                                <div class="form-group dsmovie-formgroup">
+
+                                    <label for="email">Informe seu Email</label>
+                                    <input class="form-control" type="email" id = "email">
+
+                                </div>
+                                <div class="form-group dsmovie-formgroup">
+
+                                    <label for="score">Informe sua Avaliação</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+
+                                </div>
+                                <div class="dsmovide-form-btn-container">
+                                    <button class="dsmoviebtn" type="submit">Salvar</button>
+                                    <!-- <a class="dsmoviebtn" href="index.html">Cancelar</a> -->                                
+                                    <a class="dsmoviebtn" href="index.html">Cancelar</a>
+                                </div>
+
+                            </form>
+                            
         
                         </div>
                     </div>
